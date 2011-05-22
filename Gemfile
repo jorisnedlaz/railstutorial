@@ -8,6 +8,11 @@ gem 'rails', '3.0.7'
 gem 'sqlite3'
 gem 'rake', '0.8.7'
 
+group :development do
+  
+  gem 'annotate-models', '1.0.4'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
