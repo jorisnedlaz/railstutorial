@@ -15,7 +15,7 @@ Railstutorial::Application.routes.draw do
   #get "pages/contact"
   #get "pages/about"
 
-  resources :microposts
+ resources :microposts, :only => [:create, :destroy]
 
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
